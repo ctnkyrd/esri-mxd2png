@@ -1,5 +1,5 @@
-dist\
-build\
+dist/
+build/
 images\
 example\
 *.pyc
