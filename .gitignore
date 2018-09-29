@@ -1,3 +1,7 @@
+dist\
+build\
 images\
 example\
 *.pyc
+*.egg-info
+setup.py
