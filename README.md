@@ -26,4 +26,4 @@ mxdj2jpgObject.selectLayer("BUILDING")
 print "DONE!"
 ```
 ## screenshots
-<a href="https://imgbb.com/"><img src="https://image.ibb.co/mzSGZK/PARSEL_ESKI_71.jpg" alt="PARSEL_ESKI_71" border="0"></a>
+<a><img src="https://image.ibb.co/mzSGZK/PARSEL_ESKI_71.jpg" alt="PARSEL_ESKI_71" border="0"></a>
