@@ -1,5 +1,5 @@
 # esri-mxd2jpg
-with arcpy opens desired .mxd and zoom to selected records based in criteria and  iterate through records get &amp; save screenshot.
+choose your mxd file with layers and zoom to selected records based in criteria and  iterate through records get &amp; save screenshot.
 
 required parameters are,
 ###mxd2jpg class
@@ -27,7 +27,7 @@ Please ensure that you need to have ArcGIS 10.x installed on your computer in or
 ```
 import mxd2jpg
 
-mxdj2jpgObject = mxd2jpg.mxd2jpg('A:\buildings.mxd', 'A:\exported-images', pk="OBJECTID")
+mxdj2jpgObject = mxd2jpg.mxd2jpg(r'A:\buildings.mxd', 'A:\exported-images', pk="OBJECTID")
 mxdj2jpgObject.selectLayer("BUILDING")
 
 print "DONE!"
