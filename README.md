@@ -16,3 +16,12 @@ required parameters are,
 Please ensure that you need to have ArcGIS 10.x installed on your computer in order to use this module.
 
 ## usage
+
+```
+import mxd2jpg
+
+mxdj2jpgObject = mxd2jpg.mxd2jpg('A:\buildings.mxd', 'A:\exported-images')
+mxdj2jpgObject.selectLayer("BUILDING")
+
+print "DONE!"
+```
