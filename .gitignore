@@ -4,4 +4,3 @@ images/
 example/
 *.pyc
 *.egg-info
-setup.py
