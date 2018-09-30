@@ -1,7 +1,7 @@
 dist/
 build/
-images\
-example\
+images/
+example/
 *.pyc
 *.egg-info
 setup.py
