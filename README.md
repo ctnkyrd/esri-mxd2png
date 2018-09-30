@@ -4,7 +4,7 @@ with arcpy opens desired .mxd and zoom to selected records based in criteria and
 ## latest version 1.0.1
 
 ## installation
-```pip install mxd2jpg```
+```pip install mxd2jpg``` \n
 ```python -m pip install mxd2jpg ```
 
 ## dependencies
