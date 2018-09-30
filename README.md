@@ -2,9 +2,16 @@
 with arcpy opens desired .mxd and zoom to selected records based in criteria and  iterate through records get &amp; save screenshot.
 
 required parameters are,
-* Location of the given mxd (must be a valid mxd with layers on)
-* location of the exported images folder
-* lastly the layername
+###mxd2jpg class
+* mxdPath: path to the valid mxd file
+* images path: folder at which the images installed
+* pk: primary key (objectid) of the layer's table (deafult: "OBJECTID")
+* widht: px witdh of the images (default: 363)
+* height: px height of the images (default: 300)
+###mxd2jpg.selectLayer def
+* layerName: name of the layer which is valid at the dataframe
+* whereClause: arcgis select layerByAttribute like where clauses (default: "")
+  * example whereClause: "AREA > 300"
 
 ## latest version 1.0.1
 
