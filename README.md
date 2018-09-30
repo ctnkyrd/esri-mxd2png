@@ -1,4 +1,4 @@
-# esri-mxd2png
+# esri-mxd2jpg
 with arcpy opens desired .mxd and zoom to selected records based in criteria and  iterate through records get &amp; save screenshot.
 
 required parameters are,
